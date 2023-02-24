@@ -6,7 +6,7 @@ export default {
 
 <template>
     <div>
-        <h3>My Single Component for FEMCODERS P1 Málaga</h3>
+        <h3>My Single COMPONENT for FEMCODERS P1 Málaga</h3>
     </div>
   
 </template>
