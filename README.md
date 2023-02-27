@@ -27,7 +27,9 @@ My first baby steps in framework VUE 3 following online lessons from Full Stack 
 
 ## Next steps
 
-* Implement other components anv Views
+* Implement other components and Views
+* Use Bootstrap to learn compatibility with VUE
+
 
 ## Recommended IDE Setup
 
