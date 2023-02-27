@@ -4,10 +4,17 @@
 
 My first baby steps in framework VUE 3 following online lessons from Full Stack Web Developer Bootcamp FEMCODERS MÁLAGA 2022/2023
 
+## Contents
+
+* VUE Views and VUE components including RAW
+* VUE Directives: V-BIND and V-HTML
+
 ## ScreenShots
-![ScreenShot VUE 1st class](https://user-images.githubusercontent.com/116545851/221193452-7e1dc72e-19c8-4094-bb8d-b1ab391b6328.png)
+
+![imagen](https://user-images.githubusercontent.com/116545851/221616626-0ef00bc4-b019-40f0-9521-16a8f6ce6f58.png)
 
 ## Stacks and Tools
+
 * VUE3
 * HTML5
 * CSS3
@@ -16,7 +23,11 @@ My first baby steps in framework VUE 3 following online lessons from Full Stack 
 
 ## Methodology
 
-Agile with single programming.
+* Agile with single programming.
+
+## Next steps
+
+* Implement other components anv Views
 
 ## Recommended IDE Setup
 
