@@ -7,6 +7,9 @@ export default {
 }
 </script>
 
+/*Dentro de esta vista creada llamo a los componentes creados en carpeta myComponents.*/
+/*Puedo usar estos componentes tantas veces quiera:botones, párrafos, etc*/
+
 <template>
     <div>
         <h1>My Single PAGE with VUE3 by FEMCODERS</h1>
