@@ -19,7 +19,7 @@ const router = createRouter({
       // which is lazy-loaded when the route is visited.
       component: () => import('../views/AboutView.vue')
     },
-  /*Aquí creo la ruta con el nombre elegido según nombre del archivo que luego indicaré en APP.VUE*/
+  //Aquí creo la ruta con el nombre elegido según nombre del archivo que luego indicaré en APP.VUE
     {
       path: '/myview',
       name: 'MyView',

@@ -7,8 +7,8 @@ export default {
 }
 </script>
 
-/*Dentro de esta vista creada llamo a los componentes creados en carpeta myComponents.*/
-/*Puedo usar estos componentes tantas veces quiera:botones, párrafos, etc*/
+<!-- Dentro de esta vista creada llamo a los componentes creados en carpeta myComponents.
+Puedo usar estos componentes tantas veces quiera:botones, párrafos, etc -->
 
 <template>
     <div>
@@ -32,6 +32,7 @@ h1{
 
 p{
     color: #34495e;
+    font-style: italic;
 }
 
 </style>

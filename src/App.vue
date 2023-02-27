@@ -9,7 +9,7 @@ import HelloWorld from './components/HelloWorld.vue'
 
     <div class="wrapper">
       <HelloWorld msg="You did it!" />
-/*Aquí añado al menú los enlaces que se encuentran creados por mí en index.js dentro de router*/
+<!-- Aquí añado al menú los enlaces que se encuentran creados por mí en index.js dentro de router -->
       <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
