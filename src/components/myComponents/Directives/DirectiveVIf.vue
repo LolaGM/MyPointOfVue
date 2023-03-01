@@ -7,6 +7,9 @@ export default {
             adding: false,
         }
     },
+
+/* Creamos dos metodos */
+//Método addMovie que hace método PUSH. Añade +1 al largo que tenga el título y con this.newTitle lo pone vacío 
     methods: {
         addMovie(){
             this.movies.push({
@@ -15,6 +18,8 @@ export default {
             })
             this.newTitle =''
         },
+
+//Método showInputToAdd(state) y le pasamos como parámetro un STATE.Que pone el estado que le pasamos como parámetro () y el title lo pone vacío después
         showInputToAdd(state){
             this.adding = state
             this.newTitle =''
