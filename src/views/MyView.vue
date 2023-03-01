@@ -1,8 +1,9 @@
 <script>
+import DirectiveVShow from '../components/myComponents/Directives/DirectiveVShow.vue';
 import RawHtmlData from '../components/myComponents/RawHtmlData.vue';
 import SingleComponent from '../components/myComponents/SingleComponent.vue'
 export default {
-  components: { SingleComponent, RawHtmlData },
+  components: { SingleComponent, RawHtmlData, DirectiveVShow },
 
 }
 </script>
@@ -21,6 +22,8 @@ Puedo usar estos componentes tantas veces quiera:botones, párrafos, etc -->
         <SingleComponent/>
         -----------------------------------------------------------
         <RawHtmlData/>
+        -----------------------------------------------------------
+        <DirectiveVShow />
 
     </div>
 </template>
