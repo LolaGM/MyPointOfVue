@@ -1,11 +1,12 @@
 <script>
-export default {
+import ApiChuck from '../components/myComponents/apiComponent/ApiChuck.vue'
 
+export default { components :{ ApiChuck}
 }
 </script>
 
 <template>
-    <div>Chuck Norris API</div>
+        <ApiChuck/>
 </template>
 
 <style>

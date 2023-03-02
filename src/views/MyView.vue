@@ -23,7 +23,7 @@ Puedo usar estos componentes tantas veces quiera:botones, párrafos, etc -->
         -----------------------------------------------------------
         <RawHtmlData/>
         -----------------------------------------------------------
-        <DirectiveVShow />
+        <DirectiveVShow/>
 
     </div>
 </template>
