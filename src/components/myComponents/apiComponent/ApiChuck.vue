@@ -16,17 +16,38 @@ export default {
 }
 </script>
 
+<!-- Usamos una card de BOOTSTRAP cuyo enlace está en main.js -->
 <template>
-        <div>
-            <h1>CHUCK NORRIS</h1>
-            <div v-if="chuckData">
-                <h2>{{ chuckData.value }}</h2>
 
-                <h3>ID: {{ chuckData.id }}</h3>
+    <div v-if="chuckData">
+        <div class="card chuckCard" style="width: 18rem;">
+            <h1>CHUCK NORRIS</h1>
+            <img src="https://api.chucknorris.io/img/chucknorris_logo_coloured_small@2x.png" class="card-img-top imgChuck" alt="Chuck Norris Api Logo">
+            <div class="card-body">
+                <p class="card-text">JOKE: {{ chuckData.value }}</p>
+                <p class="card-text">ID: {{ chuckData.id }}</p>
             </div>
         </div>
+    </div>        
 </template>
 
 <style>
+
+h1{
+    text-align: center;
+}
+
+.chuckCard{
+    display: flex;
+    margin: auto;
+    margin-top:5%;
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.imgChuck{
+    width:250px;
+    margin: auto;
+}
 
 </style>

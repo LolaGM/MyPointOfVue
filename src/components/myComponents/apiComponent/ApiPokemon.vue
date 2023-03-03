@@ -16,27 +16,38 @@ export default {
 }
 </script>
 
+<!-- Usamos una card de BOOTSTRAP cuyo enlace está en main.js -->
 <template>
-        <div>
-            <h1>Pokemon</h1>
-            <div v-if="pokemonData">
-                <h2>{{ pokemonData.name }}</h2>
-                <img class="imgPokemon" :src="pokemonData.sprites.other.dream_world.front_default" alt='{{ pokemonData.name }}'>
 
-                <h3>HP: {{ pokemonData.stats[0].base_stat }}</h3>
-                <h3>HP: {{ pokemonData.stats[0].base_stat }}</h3>
-                <h3>HP: {{ pokemonData.stats[0].base_stat }}</h3>
-                <h3>HP: {{ pokemonData.stats[0].base_stat }}</h3>
-
-
-
+    <div v-if="pokemonData">
+        <div class="card pokemonCard" style="width: 18rem;">
+            <h5 class="card-title">Name: {{ pokemonData.name }}</h5>
+            <img class="imgPokemon card-img-top" :src="pokemonData.sprites.other.dream_world.front_default" alt='{{ pokemonData.name }}'>
+            <div class="card-body">
+                <p class="card-text">HP: {{ pokemonData.stats[0].base_stat }}</p>
+                <p>Speed: {{ pokemonData.stats[1].base_stat }}</p>
+                <p>Attack: {{ pokemonData.stats[3].base_stat }}</p>
+                <p>Weight: {{ pokemonData.weight }}</p>
+                <p>Height: {{ pokemonData.height }}</p>
             </div>
-
         </div>
+    </div>
+
 </template>
 
 <style>
-.imgPokemon{
-    width:200px;
+
+.pokemonCard{
+    display: flex;
+    margin: auto;
+    margin-top:5%;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+.imgPokemon{
+    width:150px;
+    margin: auto;
+}
+
 </style>
