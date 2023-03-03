@@ -6,18 +6,16 @@ import HelloWorld from './components/HelloWorld.vue'
 
 <template>
   <header>
-    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
+    <img alt="My Point Of Vue logo" class="logo" src="@/assets/PointOfVueLogo1.jpg" width="500" height="250" />
 
     <div class="wrapper">
-      <HelloWorld msg="You did it!" />
 <!-- Aquí añado al menú los enlaces que se encuentran creados por mí en index.js dentro de router -->
       <nav>
         <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
         <RouterLink to="/myview">My View</RouterLink>
         <RouterLink to="/pokemon">Pokemon API</RouterLink>
         <RouterLink to="/chuck">Chuck Norris API</RouterLink>
-
+        <RouterLink to="/about">About</RouterLink>
       </nav>
     </div>
   </header>
