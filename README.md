@@ -13,9 +13,9 @@ My first baby steps in framework VUE 3 following online lessons from Full Stack 
 
 ## ScreenShots
 
-| Figma | Trello | Demor |
+| 1st component | Api #1 component | Api#2 component |
 | :---: | :---: | :---: |
-|<img src="https://user-images.githubusercontent.com/116561400/220866006-87687e3c-4447-40e3-8115-b645bf787484.png" width="50%"> |<img src="https://user-images.githubusercontent.com/116561400/220866213-4f8d57d5-567d-4f8d-a8d8-17ac167cc147.png" width="50%"> | <img src="https://user-images.githubusercontent.com/116561400/221018441-6e3194d5-8f75-4d61-a5a8-5e6c5e992391.png" width="50%"> |
+| ||  |
 
 
 ## Stacks and technologies
