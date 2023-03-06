@@ -8,6 +8,7 @@ export default {
 <template>
     <div>
         <h3>My Single COMPONENT for FEMCODERS P1 Málaga</h3>
+        <p>This is just a little component inserted into the MyView file</p>
     </div>
   
 </template>

@@ -20,10 +20,7 @@ Puedo usar estos componentes tantas veces quiera:botones, párrafos, etc -->
         <p>Usando el atributo SCOPED en la etiqueta STYLE conseguiremos que el estilo sólo afecte al archivo .vue que estamos creando.</p>
         -----------------------------------------------------------
         <SingleComponent/>
-        -----------------------------------------------------------
-        <RawHtmlData/>
-        -----------------------------------------------------------
-        <DirectiveVShow/>
+      
 
     </div>
 </template>

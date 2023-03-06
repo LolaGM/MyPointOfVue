@@ -18,10 +18,11 @@ export default {
 
 <!-- Usamos una card de BOOTSTRAP cuyo enlace está en main.js -->
 <template>
-
     <div v-if="chuckData">
+        <h1>API#2 CHUCK NORRIS</h1>
+
         <div class="card chuckCard" style="width: 18rem;">
-            <h1>CHUCK NORRIS</h1>
+            <h2>CHUCK NORRIS</h2>
             <img src="https://api.chucknorris.io/img/chucknorris_logo_coloured_small@2x.png" class="card-img-top imgChuck" alt="Chuck Norris Api Logo">
             <div class="card-body">
                 <p class="card-text">JOKE: {{ chuckData.value }}</p>
@@ -34,7 +35,13 @@ export default {
 <style>
 
 h1{
+    color:#42b883;
     text-align: center;
+}
+
+h2{
+    text-align: center;
+
 }
 
 .chuckCard{

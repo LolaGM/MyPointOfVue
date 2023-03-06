@@ -1,6 +1,5 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
 
 </script>
 
@@ -13,6 +12,7 @@ import HelloWorld from './components/HelloWorld.vue'
       <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/myview">My View</RouterLink>
+        <RouterLink to="/directives">VUE Directives</RouterLink>
         <RouterLink to="/pokemon">Pokemon API</RouterLink>
         <RouterLink to="/chuck">Chuck Norris API</RouterLink>
         <RouterLink to="/about">About</RouterLink>

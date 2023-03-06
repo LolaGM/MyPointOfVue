@@ -29,11 +29,9 @@ Luego usaremos la directiva V-SHOW para que con esa variable isShowing que indic
 Al pulsar el botón se mostrará el texto -->
 <template>
     <div>
-        <h3>------V-SHOW directive-----</h3>
-        <h4>------V-ON directive using a button-----</h4>
+        <h3>V-SHOW and V-ON directives using a button</h3>
         <button v-on:click="changeState">
             <span v-show="isShowing">Once upon a time in Málaga</span>
-
         </button>
     </div>
 </template>

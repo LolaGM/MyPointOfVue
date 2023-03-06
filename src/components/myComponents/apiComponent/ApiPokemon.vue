@@ -20,6 +20,8 @@ export default {
 <template>
 
     <div v-if="pokemonData">
+        <h1>API#1 POKEMON</h1>
+
         <div class="card pokemonCard" style="width: 18rem;">
             <h5 class="card-title">Name: {{ pokemonData.name }}</h5>
             <img class="imgPokemon card-img-top" :src="pokemonData.sprites.other.dream_world.front_default" alt='{{ pokemonData.name }}'>
