@@ -1,10 +1,11 @@
 <script>
 import DirectiveVShow from '../components/myComponents/Directives/DirectiveVShow.vue';
 import DirectiveVIf from '../components/myComponents/Directives/DirectiveVIf.vue';
-
+import DirectiveVModel from '../components/myComponents/Directives/DirectiveVModel.vue';
+import DirectiveVFor from '../components/myComponents/Directives/DirectiveVFor.vue';
 
 export default {
-  components: { DirectiveVShow, DirectiveVIf }
+  components: { DirectiveVShow, DirectiveVIf ,DirectiveVModel, DirectiveVFor}
 
 }
 </script>
@@ -21,7 +22,9 @@ Puedo usar estos componentes tantas veces quiera:botones, párrafos, etc -->
         --------------------------
         <DirectiveVIf/>
         --------------------------
-
+        <DirectiveVModel/>
+        --------------------------
+        <DirectiveVFor/>
 
     </div>
 </template>
