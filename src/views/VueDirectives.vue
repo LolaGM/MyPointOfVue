@@ -3,9 +3,10 @@ import DirectiveVShow from '../components/myComponents/Directives/DirectiveVShow
 import DirectiveVIf from '../components/myComponents/Directives/DirectiveVIf.vue';
 import DirectiveVModel from '../components/myComponents/Directives/DirectiveVModel.vue';
 import DirectiveVFor from '../components/myComponents/Directives/DirectiveVFor.vue';
+import ComputedProps from '../components/myComponents/computed-properties/ComputedProps.vue'
 
 export default {
-  components: { DirectiveVShow, DirectiveVIf ,DirectiveVModel, DirectiveVFor}
+  components: { DirectiveVShow, DirectiveVIf ,DirectiveVModel, DirectiveVFor, ComputedProps}
 
 }
 </script>
@@ -25,6 +26,8 @@ Puedo usar estos componentes tantas veces quiera:botones, párrafos, etc -->
         <DirectiveVModel/>
         --------------------------
         <DirectiveVFor/>
+        --------------------------
+        <ComputedProps/>
 
     </div>
 </template>
