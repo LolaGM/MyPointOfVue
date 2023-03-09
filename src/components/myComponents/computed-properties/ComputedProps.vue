@@ -36,9 +36,9 @@ export default {
         Imprimimos dentro de un DIV comicTitle  que sacará lo que contiene DATA -->
  <template>
     <div class="my-4">
-        <h1>Computed property</h1>       
+        <h1>Computed properties</h1>       
         <div>
-            <p>Imprime lo que contiene la variable:</p>
+<!--Esta propiedad imprime en pantalla al usuario lo que contiene la variable:-->      
             <h5>Movie title: {{ comicTitle }}</h5>
             <p>Imprime lo que contiene la variable pero al revés:</p>
             <h5>Movie title: reversed: {{ reversedComicTitle }}</h5>  

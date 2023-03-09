@@ -5,7 +5,6 @@ import { RouterLink, RouterView } from 'vue-router'
 
 <template>
   <header>
-    <img alt="My Point Of Vue logo" class="logo" src="@/assets/PointOfVueLogo1.jpg" width="500" height="250" />
 
     <div class="wrapper">
 <!-- Aquí añado al menú los enlaces que se encuentran creados por mí en index.js dentro de router -->
@@ -13,9 +12,11 @@ import { RouterLink, RouterView } from 'vue-router'
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/myview">My View</RouterLink>
         <RouterLink to="/directives">VUE Directives</RouterLink>
+        <RouterLink to="/computed">Computed Properties</RouterLink>
+        <RouterLink to="/props">Props and methods</RouterLink>
         <RouterLink to="/pokemon">Pokemon API</RouterLink>
         <RouterLink to="/chuck">Chuck Norris API</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
+        <RouterLink to="/about">About My Point Of VUE</RouterLink>
       </nav>
     </div>
   </header>

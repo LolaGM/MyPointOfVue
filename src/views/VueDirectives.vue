@@ -1,4 +1,5 @@
 <script>
+import RawHtmlData from '../components/myComponents/RawHtmlData.vue';
 import DirectiveVShow from '../components/myComponents/Directives/DirectiveVShow.vue';
 import DirectiveVIf from '../components/myComponents/Directives/DirectiveVIf.vue';
 import DirectiveVModel from '../components/myComponents/Directives/DirectiveVModel.vue';
@@ -6,7 +7,7 @@ import DirectiveVFor from '../components/myComponents/Directives/DirectiveVFor.v
 import ComputedProps from '../components/myComponents/computed-properties/ComputedProps.vue'
 
 export default {
-  components: { DirectiveVShow, DirectiveVIf ,DirectiveVModel, DirectiveVFor, ComputedProps}
+    components: { RawHtmlData, DirectiveVShow, DirectiveVIf ,DirectiveVModel, DirectiveVFor, ComputedProps}
 
 }
 </script>
@@ -26,9 +27,6 @@ Puedo usar estos componentes tantas veces quiera:botones, párrafos, etc -->
         <DirectiveVModel/>
         --------------------------
         <DirectiveVFor/>
-        --------------------------
-        <ComputedProps/>
-
     </div>
 </template>
 

@@ -2,7 +2,7 @@
 export default {
     data(){
         return{
-            title : "This is My first Variable",
+            title : "These are directives in VUE 3 that we should know",
             person:{
                 id:1,
                 name: "Lola",
@@ -45,7 +45,7 @@ h3{
 }
 
 h4{
-    color:green;
+    color:blue;
 }
 
 img{
@@ -53,7 +53,6 @@ img{
 }
 
 p{
-    color:darkolivegreen;
+    color:purple;
 }
-
 </style>
