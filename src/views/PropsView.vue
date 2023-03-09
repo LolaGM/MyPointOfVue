@@ -1,13 +1,16 @@
 <script>
-import Props from '../components/myComponents/props/Props.vue'
+import ParentComponent from '../components/myComponents/props/ParentComponent.vue'
 export default {
-  components: { Props },
+  components: { ParentComponent },
 
 }
 </script>
 <template>
     <div>
-        <h1>Props and methods VIEW</h1>
+        <h1>Props from Parent to Child</h1>
+        <ParentComponent/>
+        <h1>Methods from Child to Parent</h1>
+
     </div>
 </template>
 
