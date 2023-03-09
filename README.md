@@ -2,7 +2,7 @@
 
 ## My Point of VUE: Description
 
-My first baby steps in framework VUE 3 following online lessons from Full Stack Web Developer Bootcamp FEMCODERS MÁLAGA 2022/2023
+My first baby steps in framework VUE 3 following guided online lessons from Full Stack Web Developer Bootcamp FEMCODERS MÁLAGA 2022/2023
 
 ## Contents
 
@@ -10,6 +10,7 @@ My first baby steps in framework VUE 3 following online lessons from Full Stack 
 * VUE Directives: V-BIND and V-HTML
 * VUE Directives: V-SHOW and V-IF
 * VUE Directives: V-MODEL and V-FOR
+* VUE computed properties
 * VUE props and methods: father and son components
 * API implementation: Pokemon API and Chuck Norris API in different components and views
 * Use of BOOTSTRAP cards for each API component's info
@@ -42,12 +43,14 @@ My first baby steps in framework VUE 3 following online lessons from Full Stack 
  <img src= "https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white"></img>  
  <img src= "https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white"></img> 
  <img src= "https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D"></img>
+ <img src="https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white"></img>
  
  </p>
  
 ## Other Tools
 
-* IDE Visual Studio Code
+ <img src="https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white"></img>
+
 
 ## Methodology
 
