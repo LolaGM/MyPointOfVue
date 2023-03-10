@@ -8,14 +8,16 @@ export default {
     },
     //para pasar la variable de HIJO a PADRE usamos METHODS
     //le decimos DATA y que devuelva con  nombre de la variable y su valor
-    methods: {
-        data(){
+    data(){
             return{
                 brand:"DC Comics",
             }
         },
-        sendBrand(){
-            this.$emit
+    /*Creamos en el componente un botón para que con el evento  CLIC llame a una función SENDBRAND y así envíe del hijo al padre el contenido de la variable . Para ellos creamos ese método y dentro escribimos la variable EMIT*/
+    methods: {       
+        sendBrand(){ //función sendBrand que con ESTE componente ENVÍA = EMIT una variable
+            this.$emit('brand',this.brand) 
+            //"con este componente emite envía a brand del padre este brand"
         }
     },
 }
@@ -29,10 +31,10 @@ La vamos a llamar en SCRIPT con los PROPS indicando NOMBRE de la vaariable y TIP
         <p>Inherited: "{{ movieTitle }}"</p>
         <p>Inherited with suffix or text we want to add: "{{ movieTitle }}-ita"</p>
         <h2>Father inherits data from child</h2>
-        <button @click="sendBrand">Send BRAND to FATHER</button>
+        <button @click="sendBrand">Send BRAND from CHILD to FATHER</button>
     </div>
 </template>
-
+<!-- Creamos un botón para que con el evento llame a una función SENDBRAND y así envíe del hijo al padre el contenido de la variable . Para ellos creamos ese método en el SCRIPT y dentro escribimos la variable EMIT-->
 <style lang="CSS" scoped>
 h2{
     color:darkgreen;
