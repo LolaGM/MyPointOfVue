@@ -15,21 +15,36 @@ My first baby steps in framework VUE 3 following guided online lessons from Full
 * API implementation: Pokemon API and Chuck Norris API in different components and views
 * Use of BOOTSTRAP cards for each API component's info
 
+
 ## ScreenShots
 <table style="padding:5px">
  <th>1st component</th>
- <th>API#1 component</th>
- <th>API#2 component</th> 
+ <th>Directives</th>
+ <th>Computed Properties</th>
   <tr>
     <td>
-     <img src="https://user-images.githubusercontent.com/116545851/223201945-87f9d8fb-74a2-4823-8fd1-8a6089d3d4d9.png"  alt="1st component" width = 300px height = 496px >
+     <img src="https://user-images.githubusercontent.com/116545851/224772478-1f1a5344-a7bd-4ebc-882b-1cfb828e3771.png"  alt="1st component" width = 300px height = 496px >
    </td>
    <td>
-     <img src="https://user-images.githubusercontent.com/116545851/223202044-79679417-955e-4ed5-a12b-89d26e79b81a.png" align="right" alt="API#1" width = 300px height = 496px>
+     <img src="https://user-images.githubusercontent.com/116545851/224773060-553887e4-5fdf-4dce-ae31-fb226de48aba.png" align="right" alt="VUE directives" width = 300px height = 496px>
    </td>
    <td>
-    <img src="https://user-images.githubusercontent.com/116545851/223202307-eae08783-5ac4-4fa1-b937-fb3469245398.png" alt="API#2" width = 300px height = 512px>
-   </td>    
+    <img src="https://user-images.githubusercontent.com/116545851/224773458-0b1ac7ef-43ca-4ea4-99d7-174450d26b5b.png" alt="Computed PRoperties" width = 300px height = 512px>
+   </td>        
+  </tr>
+  <th>Props and Methods</th> 
+  <th>API#1 component</th>
+  <th>API#2 component</th> 
+  <tr>
+   <td>
+      <img src="https://user-images.githubusercontent.com/116545851/224773729-dfe4290c-9114-4fc9-9859-d2f80b90e91c.png"  alt="Props and Methods" width = 300px height = 496px >
+   </td>
+   <td>
+     <img src="https://user-images.githubusercontent.com/116545851/224774021-348cd161-3f8e-40c5-9d13-0a8df4268000.png" align="right" alt="Pokemon API" width = 300px height = 496px>
+   </td>
+   <td>
+    <img src="https://user-images.githubusercontent.com/116545851/224774165-6a5449f2-6a57-4a47-baa8-05c360d7fc9c.png" alt="API#2" width = 300px height = 512px>
+   </td>  
   </tr>
 </table>
 
@@ -59,6 +74,7 @@ My first baby steps in framework VUE 3 following guided online lessons from Full
 ## Next steps
 
 * Implement other components and Views
+* Practice directives with different components and views
 * Practice new props and methods
 
 
