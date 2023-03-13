@@ -5,23 +5,14 @@ export default {
 
 }
 </script>
+
 <template>
     <div>
-        <h1>Props from Parent to Child</h1>
-        <ParentComponent/>
-        <h1>Methods from Child to Parent</h1>
-
+        <h1>Props and Methods</h1>
+        <ParentComponent />
     </div>
 </template>
 
-
 <style>
-h1{
-    color:#42b883;
-}
 
-p{
-    color: #34495e;
-    font-style: italic;
-}
 </style>

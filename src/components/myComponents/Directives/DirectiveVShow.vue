@@ -37,5 +37,11 @@ Al pulsar el botón se mostrará el texto -->
 </template>
 
 <style>
-
+button{
+    color:white;
+    background-color: green;
+    border-color: none;
+    border-radius: 10px;
+    width: 150px;
+}
 </style>

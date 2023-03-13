@@ -1,49 +1,48 @@
 <script>
-//insertamos datos para que se nos devuelva al llamarlos en el SPAN de TEMPLATE
-//importamos y exportamos al hijo al que llamamos más abajo
-import ChildComponent from './ChildComponent.vue';
+import ChildComponent from './ChildComponent.vue'
 export default {
-    //llamamos al componente
-    components:{ ChildComponent},
-    data(){
-        return {
-            movieTitle:"WonderWoman",
-            brand:"",
-            count:0, //indicamos el contador a cero
-        }
-    },
-    methods: {
-        receivedBrand(data){ //las funciones se meten dentro de MÉTODOS
-            this.brand = data; //¿Dónde queremos poner DATA y a qué variable? En este Brand (variable creada con este nombre) de este componente PARENT
-            this.count++; //cada vez que hay una llamada a ese evento me vas a contar 1 +
-        }
-    },
+    components: { ChildComponent },
+    
+        data() {
+            return {
+                movieTitle: 'WonderWoman',
+                brand :"",
+                count : 0,
+                }
+        },
+        methods: {
+            receivedBrand(data){
+            this.brand = data;
+            this.count++;
+            }
+        },
 }
+
+//El receivedBrand coge el data del emit que al principio no vale nada y le sumas +1
+//Aunque no cambie sigue sumando
 </script>
-<!-- Llamo a la variable con dos bigotes dentro de SPAN -->
+
 <template>
-    <div>
-        <h2>I'm your father</h2>
-        <span>{{ movieTitle }}</span>
-<!-- Llamamos al componente hijo -->
-        <ChildComponent :movieTitle="movieTitle" @brand="receivedBrand"/>
-<!-- Queremos imprimir en el padre la variable que contiene el hijo -->
-        <span>Brand: {{ brand }} / {{ count }}</span>
-<!-- Además del BRAND me vas a poner un COUNT -->
-    </div>
+    <h2>I'm your Father</h2>
+    <span>Movie Title: <em>{{ movieTitle }}</em></span>
+    <ChildComponent :movieTitle="movieTitle" @brand="receivedBrand" />
+    <!-- Aunque el valor sea el mismo, para él ha habido un cambio -->
+    <span>BRAND: <em> {{ brand }}</em> / {{ count }}</span>
 </template>
 
-<style>
+<style lang="css" scoped>
 h2{
     color:darkgreen;
-    margin-top:5px;
 }
-h5{
+button{
+    color:white;
+    background-color: green;
+    border-color: none;
+    border-radius: 10px;
+    width: 150px;
+}
+span{
+    margin-left: 10px;
     color:blue;
-    margin-top:5px;
-}
-p{
-    color:green;
-    margin-top:5px;
 }
 </style>

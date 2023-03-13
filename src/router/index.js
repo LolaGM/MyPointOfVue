@@ -3,8 +3,7 @@ import HomeView from '../views/HomeView.vue'
 import MyView from '../views/MyView.vue'
 import VueDirectives from '../views/VueDirectives.vue'
 import ComputedPropertiesView from '../views/ComputedPropertiesView.vue'
-
-import PropsView from '../views/PropsView.vue'
+import PropsMethodsView from '../views/PropsMethodsView.vue'
 import ApiPokemonView from '../views/ApiPokemonView.vue'
 import ApiChuckView from '../views/ApiChuckView.vue'
 //aquí importamos las vistas y la ruta de cada una que debajo vamos a ir añadiendo aquí debajo como vistas y componentes 
@@ -16,6 +15,14 @@ const router = createRouter({
       path: '/',
       name: 'home',
       component: HomeView
+    },
+    {
+      path: '/props',
+      name: 'Props and methods',
+      // route level code-splitting
+      // this generates a separate chunk (About.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: PropsMethodsView
     },
     {
       path: '/about',
@@ -50,14 +57,7 @@ const router = createRouter({
       // which is lazy-loaded when the route is visited.
       component: ComputedPropertiesView
     },
-    {
-      path: '/props',
-      name: 'Props and methods',
-      // route level code-splitting
-      // this generates a separate chunk (About.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
-      component: PropsView
-    },
+    
     {
       path: '/pokemon',
       name: 'ApiPokemonView',

@@ -58,12 +58,11 @@ CUando cambié el código en HEADER se cambiará en tiempo real el título sin r
 </template>
 <!-- Esto no tiene lógica en un formulario. Es más para mostrar opciones o una lista de personas convocadas
 Esto es para reactividad: cambio en tiempo real -->
-<style>
 
+<style>
 .flavourOptions{
     display: flex;
     justify-content:space-between ;
     color:green;
 }
-
 </style>
